@@ -1,5 +1,4 @@
 import './App.css';
-import data from './data'
 import React from 'react'
 import {BrowserRouter, Link, Route} from 'react-router-dom'
 import HomeScreen from './Screens/HomeScreen'
@@ -49,7 +48,7 @@ function App() {
             <Route path='/' exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer class="footer">
+        <footer className="footer">
           All rights reserved
         </footer>
       </div>
